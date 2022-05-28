@@ -142,9 +142,10 @@ h3 {
 }
 
 .quote-name {
-    width: 500px;
-    align-self: flex-end;
+    width: auto;
+    align-self: center;
     font-weight: bold;
+    margin-left: 250px;
 }
 
 .sign-up {
