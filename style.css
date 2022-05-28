@@ -34,10 +34,46 @@ a {
 
 .content {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .hero {
+    background-color: #1F2937;
+    color: #E5E7EB;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 100%;
+    padding: 24px;
+}
+
+.hero-content {
+    height: 350px;
+    width: 350px;
+}
+
+.hero-image {
+    width: 300px;
+    height: 200px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 28px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
 }
 
 .info {
