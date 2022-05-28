@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+p {
+    margin: 0;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -50,6 +54,10 @@ a {
 .hero-content {
     height: 350px;
     width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
 }
 
 .hero-image {
@@ -66,9 +74,12 @@ h2 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 800;
+    margin: 0;
 }
 
 button {
+    height: 40px;
+    width: 120px;
     background-color: #3882F6;
     padding: 8px 28px;
     color: white;
@@ -76,7 +87,20 @@ button {
     border-radius: 8px;
 }
 
+h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 100%;
+}
+
+.info-images {
     display: flex;
 }
 
