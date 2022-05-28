@@ -148,7 +148,28 @@ h3 {
 }
 
 .sign-up {
+    width: 650px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 36px 48px;
+    margin: 32px auto;
+    background: #3882F6;
+    border-radius: 8px;
+}
+
+h4 {
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    justify-content: center;
 }
 
 .footer {
