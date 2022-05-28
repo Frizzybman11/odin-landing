@@ -156,7 +156,7 @@ h3 {
     align-items: center;
     gap: 64px;
     padding: 36px 48px;
-    margin: 32px auto;
+    margin: 64px auto;
     background: #3882F6;
     border-radius: 8px;
 }
@@ -175,5 +175,12 @@ h4 {
 }
 
 .footer {
+    bottom: 0px;
+    width: auto;
+    background-color: #1F2937;
+    color: #E5E7EB;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
