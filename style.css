@@ -45,10 +45,11 @@ a {
     background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex: 100%;
     padding: 24px;
+    gap: 250px;
 }
 
 .hero-content {
